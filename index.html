@@ -3,7 +3,7 @@
   
   <h1 id="title">Javascript example</h1>
 <input type="text" id="myTextField"/>
-<input type="submit" id="byBtn" value="Send Command" onclick="alert('aaa'); alert(document.getElementById('myTextField').value))"/>
+<input type="submit" id="byBtn" value="Send Command" onclick="alert('aaa'); alert(window.external.echoToWorkspace(document.getElementById('myTextField').value))"/>
 
 
   </div></body></html>
