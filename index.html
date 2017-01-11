@@ -1,8 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>React App</title><link rel="shortcut icon" href="/favicon.ico"><link href="/static/css/main.9a0fe4f1.css" rel="stylesheet"></head><body><div id="root">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+</head><body><div id="root">
   
   <h1 id="title">Javascript example no.2</h1>
 <input type="text" id="myTextField"/>
-<input type="submit" id="byBtn" value="Change" onclick="alert('aaa'); alert(window.external);"/>
+<input type="submit" id="byBtn" value="Change" onclick="alert('aaa'); alert(window.external); 
+                                                        window.external.echoToWorkspace(document.getElementById('myTextField').value)"/>
 
 
   </div></body></html>
